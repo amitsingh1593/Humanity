@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.nav_container{
+display: grid;
+grid-template-columns: 3fr repeat(3,1fr);
+text-align: center;
+}
+h1{
+    background: red;
+    color: honeydew;
+    padding: 20px;
+    font-size:x-large ;
+    transition: 2s;
+}
+.the{
+    font-size: 10px;
+    font-weight: 100;
+    color: rgb(234, 243, 247);
+}
+h1:hover{
+    background-color: rgb(15, 216, 79);
+}
+nav a{
+    font-size: larger;
+    padding: 20px;
+    transition: 2s;
+    
+}
+.home{
+    background: royalblue;
+    color: honeydew;
+}
+.about{
+    background: greenyellow;
+    color: rgb(6, 27, 6);
+}
+.contact{
+    background: royalblue;
+    color: honeydew;
+}
+nav a:hover{
+    background: orange;
+}
+.banner{
+    background: palevioletred;
+    font-size: x-large;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(246, 245, 243);
+    transition: 2s;
+    margin-bottom: 40px;
+}
+.banner:hover{
+    background: cornflowerblue;
+}
+
+/* Religion Container */
+
+.religion_container{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(100px,auto));
+    text-align: center;
+    grid-template-rows: repeat(12,minmax(40px,auto));
+    grid-gap: 2px;
+    max-width: 800px;
+    margin:0 auto;
+}
+
+.buddhism{
+    background: rgb(203, 212, 14);
+    padding: 20px;
+    grid-row: 4/6;
+}
+.sikhism{
+    background: rgb(32, 226, 220);
+    padding: 20px;
+    grid-column: 3/4;
+    grid-row: 4/6;
+}
+.islam{
+    background: rgb(2, 114, 2);
+    padding: 20px;
+    grid-row: 1/3;
+
+}
+.christianity{
+    background: rgb(221, 18, 194);
+    padding: 20px;
+    grid-row: 2/4;
+}
+.hinduism{
+    background: orangered;
+    padding: 20px;
+    grid-row: 2/4;
+}
+
+.judaism{
+    background: rgb(230, 3, 22);
+    padding: 20px;
+    grid-column: 2/3;
+    grid-row: 5/7;
+}
+.humanity{
+    background:rgb(69, 69, 234);
+    padding: 20px;
+    grid-row: 3/5;
+    border-radius: 20%;
+    margin: -10px;
+}
